@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Animal Quiz</title>
+    <link rel="stylesheet" href="style.css">
+    <script src= "main.js"></script>
+  </head>
+  <body>
+    <h1> Animal Quiz </h1>
+    <h4>
+      <a href="quiz_330.html" class=button>Return Home</a>
+    </h4>
+    <div id="container">
+      <form id="quiz" name="quiz">
+        <p>1. What type of animal is this?</p><br>
+          <input type="radio" name="q1" value="Elephant" id="mc">Elephant<br/>
+          <input type="radio" name="q1" value="Giraffe" id="mc">Giraffe<br/>
+          <input id="button" type="button" value="Submit" onclick="answer();">
+      </form>
+      <p id="number_correct"></p>
+      <img src="elephant.jpg" alt="deer">
+    </div>
+  </body>
+</html>
